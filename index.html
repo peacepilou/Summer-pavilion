@@ -1,27 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
   <title>Pavillon d'été</title>
   <meta name="description" content="Espace de bonheur partagé">
-  <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Livvic:500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
 </head>
 <body>
 <!--HEADER-->
-	<nav>
-    	<ul>
-    		<li><a href="#home"><img src="img/logo.png" alt="logo_Pavillon_d-ete"></a></li>
-         	<li><a href="#music">music</a></li>
-        	<li><a href="#food">food</a></li>
-          	<li><a href="#love">love</a></li>
-        	<li><a href="#contact">Contact</a></li>
-        </ul>
-	</nav>
+	<header>
+		<div class="menulong">
+			<div class="navbar">
+				<a href="#home"><img src="img/logo.png" alt="logo_Pavillon_d-ete"></a>
+				<div class="burger">
+			        <div class="line"></div>
+			        <div class="line"></div>
+			        <div class="line"></div>
+				</div>
+			</div>
+			<nav>
+		    	<ul class="nav-links">
+		         	<li><a href="#music">music •</a></li>
+		        	<li><a href="#food">food •</a></li>
+		          	<li><a href="#love">love •</a></li>
+		        	<li><a href="#contact">contact •</a></li>
+		        </ul>
+			</nav>
+		</div>
+	</header>
 <!--SECTION-->
-  ...
+	<section class="landing1">
+		<img src="img/slide.jpg" alt="evenement2020">
+	</section>
+	<section class="landing2">
+		<div class="choice">
+	        <div class="container">
+	          <img src="img/music.jpg" alt="music" class="image">
+			  <div class="overlay">
+			    <div class="text"><a href="#music">music</a></div>
+			  </div>
+			</div>
+	        <div class="container">
+			  <img src="img/food.jpg" alt="foof" class="image">
+			  <div class="overlay">
+			    <div class="text"><a href="#food">food</a></div>
+			  </div>
+			</div>
+	        <div class="container">
+			  <img src="img/love.jpg" alt="love" class="image">
+			  <div class="overlay">
+			    <div class="text"><a href="#love">love</a></div>
+			  </div>
+			</div>
+	        <div class="container">
+			  <img src="img/contact.jpg" alt="contact" class="image">
+			  <div class="overlay">
+			    <div class="text"><a href="#contact">contact</a></div>
+			  </div>
+			</div>
+		</div>
+	</section>
 <!--FOOTER -->
-  ...
+
+<script src="script.js"></script>
 </body>
 </html>
