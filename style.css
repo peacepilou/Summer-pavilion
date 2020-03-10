@@ -1,0 +1,208 @@
+@media screen and (min-width:414px) {
+
+    body {
+        background-image:linear-gradient(#474CE4, #ED62CF);
+        color: #FFFFFF;
+    
+    }  
+
+    .containermusic {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .musictitre {
+    text-align: center;
+    font-size: 4rem;
+    color: pink;
+    margin: 20px;
+
+}
+
+  .musictexte1 {
+    flex-direction: column;
+    display: flex;
+    font-size: 80%;
+  
+  }
+
+  .titreartiste {
+      background-color: powderblue;
+      font-size: 5rem;
+      margin-bottom: 30px;
+  }
+
+  .date {
+    background-color: powderblue;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+ 
+
+  .musictexte2 {
+    flex-direction: column;
+    display: flex;
+    font-size: 80%;
+    justify-content: space-around;
+  }
+  .musictexte3 {
+    flex-direction: column;
+    display: flex;
+    font-size: 80%;
+    justify-content: space-around;
+  }
+  .musictexte4 {
+    flex-direction: column;
+    display: flex;
+    font-size: 80%;
+    justify-content: space-around;
+  }
+  .musicbloc1 {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+
+  }
+  .musicbloc2 {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+
+  }
+  .musicbloc3 {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+.musicbloc4 {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+
+.imgmusicbloc1 {
+    width: 25%;
+    height: 10%;
+    margin-right: 50px;
+    border-radius: 150px;
+    
+}
+.imgmusicbloc2 {
+    width: 25%;
+    height: 10%;
+    margin-right: 50px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.imgmusicbloc3 {
+    width: 25%;
+    height: 5%;
+    margin-right: 50px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+  .imgmusicbloc4 {
+    width: 25%;
+    height: 10%;
+    margin-right: 50px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+.containerfood {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+
+  .foodtexte1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .foodtexte2 {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+  }
+  .foodtexte3 {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .foodbloc1 {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+
+  }
+  .foodbloc2 {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+
+  }
+  .foodbloc3 {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+
+  }
+
+
+.imgfoodbloc1 {
+    width: 30%;
+    margin-right: 40px;
+
+}
+.imgfoodbloc2 {
+    width: 30%;
+    margin-left: 40px;
+
+}
+.imgfoodbloc3 {
+    width: 30%;
+    margin-right: 40px;
+
+}
+
+
+
+
+
+.foodtitre {
+    text-align: center;
+    font-size: 4rem;
+    color: pink;
+    margin: 10px;
+
+}
+
+.vague {
+    
+    display: block;
+    width: 45%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
