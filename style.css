@@ -82,6 +82,36 @@ nav {
 }
 
 
+
+
+/*button scroll up*/
+#scrollup {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  background-color: #474CE4;
+  color: white;
+  cursor: pointer;
+  padding: 0.6rem 1rem 0.8rem;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+#scrollup:hover {
+  background-color: #ED62CF;
+}
+
+
+
+
+
+
+
 /*SLIDE*/
 .landing1, .landing2 {
 	display: flex;
@@ -101,7 +131,7 @@ nav {
 }
 
 
-.container {
+.bloc {
   position: relative;
   width: 50%;
 }
@@ -135,18 +165,23 @@ nav {
   transform: translate(-50%, -50%);
   text-align: center;
   opacity:1;
-
+  width:100%;
 }
 
 .text a {
 	text-decoration: none;
 	font-size: 1.8rem;
 	color: #fff;
+	display:block;
 }
 
 
 
-
+/*FOOTER*/
+.contenu_footer a {
+	text-decoration: none;
+	color:#fff;
+}
 
 
 
@@ -254,6 +289,7 @@ nav {
 		justify-content: center;
 		margin-bottom: 10px;
 	}
+
 	.vague_blanche {
 		width: 35%;
 		margin-top: 15px;
@@ -279,6 +315,18 @@ nav {
 
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 600px) and (max-width: 1024px) {
 		body {
 		background-image:linear-gradient(#474CE4, #ED62CF);
@@ -406,6 +454,19 @@ nav {
 
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1024px) {
 		body {
 		background-image:linear-gradient(#474CE4, #ED62CF);
@@ -547,14 +608,16 @@ nav {
 		background-color: #000;
 	}	
 
-	.container  {
+	.bloc  {
 		height:50vh;
 	}
 
-	.container:hover .overlay {
+	.bloc:hover .overlay {
 		opacity: 1;
 	}
-
+	.text a {
+		display: block;
+	}
 	.overlay {
 		opacity: 0;
 	}
@@ -572,6 +635,7 @@ nav {
 	.nav-links li {
 		opacity: 1;
 		width:13rem;
+		text-align: center;
 	}
 
 	.nav-links li a {
