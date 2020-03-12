@@ -22,6 +22,12 @@ h3 {
 	font-size:2rem;
 }
 
+
+
+
+
+
+
 /*MOBILE*/
 /*HEADER*/
 header {
@@ -81,6 +87,10 @@ nav {
 	font-weight:600;
 }
 
+
+
+
+
 /*button scroll up*/
 #scrollup {
   display: none;
@@ -103,6 +113,10 @@ nav {
   background-color: #ED62CF;
 }
 
+
+
+
+
 /*SECTIONS*/
 /*vague*/
 .vague {
@@ -114,6 +128,11 @@ nav {
 	margin-right: auto;
 	width: 35%;
 }
+
+
+
+
+
 
 /*SECTION 1 SLIDE*/
 .landing1, .landing2 {
@@ -174,169 +193,156 @@ nav {
 	display:block;
 }
 
+
+
+
 /*SECTION 2 MUSIC*/
 
-
-
-
-
-
-
-    .genre {
-      margin-bottom: 10px;
-      display: block;
-    }
+.genre {
+    margin-bottom: 10px;
+    display: block;
+}
     
+.titreartiste {
+    background-color: white;
+    color: #474CE4;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: block;
+}
     
-      .titreartiste {
-          background-color: white;
-          color: #474CE4;
-          font-size: 2rem;
-          margin-bottom: 10px;
-          display: block;
-      }
+.date {
+    background-color: white;
+    color: #474CE4;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: block;
+}
     
-      .date {
-        background-color: white;
-        color: #474CE4;
-        font-size: 2rem;
-        margin-bottom: 20px;
-        display: block;
-    }
-    
-    .soundcloud {
-    color:white;
+.soundcloud {
+	color:white;
     display: block;
     cursor: pointer;
-    margin-top: 2%;
-    
-    }
-    
-    .containermusic {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      flex-wrap: wrap;
-      align-items: center;
-      margin: 10px;
-      margin-top: 5%;
-    }
-    
-    .musictexte1, .musictexte2, .musictexte3, .musictexte4 {
-      flex-direction: column;
-      display: flex;
-      justify-content: space-around;
-      width: 40%;
-      }
-    
-      .musicbloc1, .musicbloc2 , .musicbloc3, .musicbloc4 {
-        display: flex;
-        margin-bottom: 60px;
-        justify-content: center;
-      }
-    
-    
-    .imgmusicbloc1, .imgmusicbloc2, .imgmusicbloc3, .imgmusicbloc4 {
-        width: 20rem;
-        margin-right: 20px;
-    }
-    
-    .nomfoodtruck {
-      font-size: 1rem;
-    }
-    
-    
-      .foodtexte1, .foodtexte2, .foodtexte3 {
-        flex-direction: column;
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 45%;
-      }
-      .foodbloc1, .foodbloc2, .foodbloc3 {
-        display: flex;
-        margin-left: 20px;
-        margin-right: 20px;
-        justify-content: center;
-    	width:90%;
-      }
-    
-    
-    
-    .imgfoodbloc1, .imgfoodbloc3 {
-        width: 45%;
-        margin-right: 20px;
-        object-fit: contain;
-        background-color: white;
-      
-    
-    }
-    .imgfoodbloc2 {
-        width: 45%;
-        margin-left: 20px;
-        object-fit: contain;
-        background-color: white;
-    }
-    
-    .foodtitre {
-        text-align: center;
-        font-size: 4rem;
-        color: pink;
-        margin: 20px;
-    
-    }
-    
-    
-    .menu {
-      text-align: center;
-      background-color: rgb(96, 147, 206);
-      border-radius: 30px;
-      width: 10rem;
-      margin-bottom: 1rem;
-      margin-top: 0.5rem;
-    }
+    margin-top: 2%; 
+}
 
-
+.containermusic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    margin-top: 5%;
+    width:90%;
+}
     
-    .nomfoodtruck {
-      font-size: 200%;
-    }
+.musictexte1, .musictexte2, .musictexte3, .musictexte4 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
     
-    
-    .containerfood {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: 5%;
-      }
+.musicbloc1, .musicbloc2 , .musicbloc3, .musicbloc4 {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+    width:50%;
+}  
  
-    .foodtitre {
-        text-align: center;
-        font-size: 4rem;
-        color: pink;
-        margin: 20px;
+.imgmusicbloc1, .imgmusicbloc2, .imgmusicbloc3, .imgmusicbloc4 {
+	width:45%;
+	margin-right: 20px;
+	object-fit: cover;
+}
     
-    }
-        
-    .bloc12 {
-      display: flex;
-      flex-direction: row;
-    }
-    
-    .bloc34 {
-      display: flex;
-      flex-direction: row;
-    
-    }
-
-
-
 
 
 
 /*SECTION 3 FOOD*/
+.nomfoodtruck {
+    font-size: 1rem;
+}
+
+.foodtexte1,.foodtexte3 {
+	flex-direction: column;
+    display: flex;
+    margin:auto;
+    width: 50%;
+    padding-left:2rem;
+}
+   
+.foodtexte2 {
+	flex-direction: column;
+    display: flex;
+    margin:auto;
+    width: 50%;
+    padding-right:2rem;
+}
+   
+.foodbloc1, .foodbloc2, .foodbloc3 {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+	width:90%;
+}
+
+.imgfoodbloc1, .imgfoodbloc3 {
+    width: 50%;
+    object-fit: contain;
+    background-color: white; 
+}
+
+.imgfoodbloc2 {
+    width: 50%;
+    margin-left: 20px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.menu {
+    text-align: center;
+    background-color: rgb(96, 147, 206);
+    border-radius: 30px;
+    width: 10rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.containerfood {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+}
+        
+.bloc12 {
+    display: flex;
+    flex-direction: column;
+}
+   
+.bloc34 {
+    display: flex;
+    flex-direction: column;  
+}
+
+.imgfood {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	background-color: #fff;
+} 
+
+
+
+
+
+
+
 
 /*SECTION 4 LOVE*/
 .OiAku {
@@ -383,6 +389,7 @@ nav {
 	transform: scale(1.2);
 	box-shadow: black;
 }
+
 
 
 
@@ -522,171 +529,12 @@ footer {
 
 
 
-
-
-
-
-@media screen and (max-width: 600px) {
-
-
-  .bloc12 {
-    flex-direction: column;
-  }
-
-  .bloc34 {
-    flex-direction: column;
-  }
-
-  .musictitre {
-    text-align: center;
-    font-size: 4rem;
-    color: pink;
-    margin: 20px;
-
-}
-
-.genre {
-  margin-bottom: 10px;
-  display: block;
-}
-
-
-  .titreartiste {
-      background-color: white;
-      color: #474CE4;
-      font-size: 1rem;
-      margin-bottom: 10px;
-      display: block;
-  }
-
-  .date {
-    background-color: white;
-    color: #474CE4;
-    font-size: 1rem;
-    margin-bottom: 20px;
-    display: block;
-}
-
-.soundcloud {
-color:white;
-display: block;
-cursor: pointer;
-margin-top: 2%;
-
-}
-
-.containermusic {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 10px;
-  margin-top: 5%;
-}
-
-.musictexte1, .musictexte2, .musictexte3, .musictexte4 {
-  flex-direction: column;
-  display: flex;
-  justify-content: space-around;
-  width: 40%;
-  }
-
-  .musicbloc1, .musicbloc2 , .musicbloc3, .musicbloc4 {
-    display: flex;
-    margin-bottom: 60px;
-    justify-content: center;
-  }
-
-
-.imgmusicbloc1, .imgmusicbloc2, .imgmusicbloc3 {
-    width: 45%;
-    margin-right: 20px;
-    object-fit: cover; 
-}
-
-.imgmusicbloc4 {
-  width: 45%;
-    margin-right: 20px;
-    object-fit: contain;
-    background-color: rgb(19, 18, 18);
-}
-
-
-.nomfoodtruck {
-  font-size: 200%;
-}
-
-
-.containerfood {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    font-size: 1rem;
-  }
-
-  .foodtexte1, .foodtexte2, .foodtexte3 {
-    flex-direction: column;
-    display: flex;
-    font-size: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 50%;
-
-  }
-  .foodbloc1, .foodbloc2, .foodbloc3 {
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    justify-content: center;
-    width:90%;
-  }
-
-
-
-.imgfoodbloc1, .imgfoodbloc3 {
-    width: 50%;
-    margin-right: 20px;
-    object-fit: contain;
-    background-color: white;
-  
-
-}
-.imgfoodbloc2 {
-    width: 50%;
-    margin-left: 20px;
-    object-fit: contain;
-    background-color: white;
-}
-
-.foodtitre {
-    text-align: center;
-    font-size: 3rem;
-    color: pink;
-    margin: 20px;
-
-}
-
-.menu {
-
-width: 10rem;
-}
-}
-
-
-
-
-
-
-
-
 /* PARTIE RESPONSIVE. Le choix a été fait de diviser le bloc responsive en 3 sous-blocs : me premier de 0px à 600px, on copie alors
 tout le contenu CSS en modifiant les parties s'adaptant à la version mobile ; un second de 600 à 1024px où on a de nouveau recopié
 l'ensemble du contenu CSS en modifiant les parties concernées ; un troisième et dernier bloc qui concerne les résolutions supérieures 
 à 1024px ; même procédé. Ce n'est pas la méthode la moins économe et la moins gourmande en travail, mais c'est la seule qui fonctionnait. */
 
+/*TABLET*/
 @media (min-width: 600px) and (max-width: 1024px) {
 	.OiAku {
 		width:70%;
@@ -706,10 +554,7 @@ l'ensemble du contenu CSS en modifiant les parties concernées ; un troisième e
 
 
 
-
-
-
-
+/*DESKTOP*/
 @media screen and (min-width: 1024px) {
 	.OiAku {
 		width:80%;
@@ -829,10 +674,48 @@ l'ensemble du contenu CSS en modifiant les parties concernées ; un troisième e
 		font-weight: 900;
 		color:#ED62CF;
 	}
+
+    .titreartiste {
+        font-size: 2rem;
+      }
+    
+    .date {
+        font-size: 2rem;
+    }
+        
+    .imgmusicbloc1, .imgmusicbloc2{
+        width: 45%;
+        object-fit:cover;
+	}
+
+    .imgmusicbloc4 {
+        width: 45%;
+        object-fit:contain;
+        background-color: rgb(19, 18, 18);
+	}
+
+	.imgmusicbloc3 {
+        width: 45%;
+        object-fit:contain;
+        background-color: #fff;
+	}
+
+    .imgfoodbloc2 {
+        width: 50%;
+    }
+
+    .containerfood {
+        font-size: 1rem;
+      }
+
+    .bloc12 {
+    	flex-direction: row;
+    }
+    
+    .bloc34 {
+    	flex-direction: row;
+    }
 }
-
-
-
 
 
 /*animation*/
