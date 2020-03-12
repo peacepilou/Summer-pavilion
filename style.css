@@ -1,18 +1,266 @@
-@media screen and (min-width:414px) {
-
     body {
         background-image:linear-gradient(#474CE4, #ED62CF);
         color: #FFFFFF;
     
-    }  
+    }
 
+    .musictitre {
+      text-align: center;
+      font-size: 4rem;
+      color: pink;
+      margin: 20px;
+    
+    }
+    
+    .genre {
+      margin-bottom: 10px;
+      display: block;
+    }
+    
+    
+      .titreartiste {
+          background-color: white;
+          color: #474CE4;
+          font-size: 3rem;
+          margin-bottom: 10px;
+          display: block;
+      }
+    
+      .date {
+        background-color: white;
+        color: #474CE4;
+        font-size: 3rem;
+        margin-bottom: 20px;
+        display: block;
+    }
+    
+    .soundcloud {
+    color:white;
+    display: block;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    
+    }
+    
     .containermusic {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 10px;
+    }
+    
+    .musictexte1, .musictexte2, .musictexte3, .musictexte4 {
+      flex-direction: column;
+      display: flex;
+      font-size: 120%;
+      justify-content: space-around;
+      width: 40%;
+      }
+    
+      .musicbloc1, .musicbloc2 , .musicbloc3, .musicbloc4 {
+        display: flex;
+        margin-bottom: 60px;
+        justify-content: center;
+      }
+    
+    
+    .imgmusicbloc1, .imgmusicbloc2, .imgmusicbloc3, .imgmusicbloc4 {
+        width: 20rem;
+        margin-right: 20px;
+    
+        
+    }
+    
+    .nomfoodtruck {
+      font-size: 200%;
+    }
+    
+    
+    .containerfood {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 2rem;
+      }
+    
+      .foodtexte1, .foodtexte2, .foodtexte3 {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+      }
+      .foodbloc1, .foodbloc2, .foodbloc3 {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+    
+      }
+    
+    
+    
+    .imgfoodbloc1, .imgfoodbloc3 {
+        width: 56%;
+        margin-right: 20px;
+        object-fit: contain;
+        background-color: white;
+      
+    
+    }
+    .imgfoodbloc2 {
+        width: 56%;
+        margin-left: 20px;
+        object-fit: contain;
+        background-color: white;
+    }
+    
+    .foodtitre {
+        text-align: center;
+        font-size: 4rem;
+        color: pink;
+        margin: 20px;
+    
+    }
+    
+    .vague {
+        
+        display: block;
+        width: 45%;
+        height: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+    
+    .bloc12 {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .bloc34 {
+      display: flex;
+      flex-direction: row;
+    
+    }
+    
+    .menu {
+      text-align: center;
+      background-color: rgb(96, 147, 206);
+      border-radius: 30px;
+    }
+
+
+    
+    .nomfoodtruck {
+      font-size: 200%;
+    }
+    
+    
+    .containerfood {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 2rem;
+      }
+    
+      .foodtexte1, .foodtexte2, .foodtexte3 {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+      }
+      .foodbloc1, .foodbloc2, .foodbloc3 {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+    
+      }
+    
+    
+    
+    .imgfoodbloc1, .imgfoodbloc3 {
+        width: 56%;
+        margin-right: 20px;
+        object-fit: contain;
+        background-color: white;
+      
+    
+    }
+    .imgfoodbloc2 {
+        width: 56%;
+        margin-left: 20px;
+        object-fit: contain;
+        background-color: white;
+    }
+    
+    .foodtitre {
+        text-align: center;
+        font-size: 4rem;
+        color: pink;
+        margin: 20px;
+    
+    }
+    
+    .vague {
+        
+        display: block;
+        width: 45%;
+        height: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+    
+    .bloc12 {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .bloc34 {
+      display: flex;
+      flex-direction: row;
+    
+    }
+    
+    .menu {
+      text-align: center;
+      background-color: rgb(96, 147, 206);
+      border-radius: 30px;
+    }
+    
+
+    @media screen and (max-width: 1024px) {
+      .bloc12 {
+        flex-direction: column;
+      }
+
+      .containermusic {
+        flex-direction: row;
+      }
+    }
+
+@media screen and (max-width: 600px) {
+
+
+  .bloc12 {
     flex-direction: column;
-    justify-content: center;
-    font-size: 4rem;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px;
+  }
+
+  .bloc34 {
+    flex-direction: column;
   }
 
   .musictitre {
@@ -23,177 +271,121 @@
 
 }
 
-  .musictexte1 {
-    flex-direction: column;
-    display: flex;
-    font-size: 80%;
-  
-  }
+.genre {
+  margin-bottom: 10px;
+  display: block;
+}
+
 
   .titreartiste {
-      background-color: powderblue;
-      font-size: 5rem;
-      margin-bottom: 30px;
+      background-color: white;
+      color: #474CE4;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      display: block;
   }
 
   .date {
-    background-color: powderblue;
-    font-size: 3.5rem;
-    margin-bottom: 30px;
+    background-color: white;
+    color: #474CE4;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    display: block;
 }
- 
 
-  .musictexte2 {
-    flex-direction: column;
-    display: flex;
-    font-size: 80%;
-    justify-content: space-around;
-  }
-  .musictexte3 {
-    flex-direction: column;
-    display: flex;
-    font-size: 80%;
-    justify-content: space-around;
-  }
-  .musictexte4 {
-    flex-direction: column;
-    display: flex;
-    font-size: 80%;
-    justify-content: space-around;
-  }
-  .musicbloc1 {
-    display: flex;
-    margin-bottom: 60px;
-    justify-content: center;
+.soundcloud {
+color:white;
+display: block;
+width: 100px;
+height: 100px;
+cursor: pointer;
 
-  }
-  .musicbloc2 {
-    display: flex;
-    margin-bottom: 60px;
-    justify-content: center;
+}
 
+.containermusic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}
+
+.musictexte1, .musictexte2, .musictexte3, .musictexte4 {
+  flex-direction: column;
+  display: flex;
+  font-size: 90%;
+  justify-content: space-around;
+  width: 40%;
   }
-  .musicbloc3 {
-    display: flex;
-    margin-bottom: 60px;
-    justify-content: center;
-  }
-.musicbloc4 {
+
+  .musicbloc1, .musicbloc2 , .musicbloc3, .musicbloc4 {
     display: flex;
     margin-bottom: 60px;
     justify-content: center;
   }
 
-.imgmusicbloc1 {
-    width: 25%;
-    height: 10%;
-    margin-right: 50px;
-    border-radius: 150px;
+
+.imgmusicbloc1, .imgmusicbloc2, .imgmusicbloc3, .imgmusicbloc4 {
+    width: 45%;
+    margin-right: 20px;
+
     
 }
-.imgmusicbloc2 {
-    width: 25%;
-    height: 10%;
-    margin-right: 50px;
-    border-radius: 150px;
-    object-fit: cover;
+
+.nomfoodtruck {
+  font-size: 200%;
 }
-
-.imgmusicbloc3 {
-    width: 25%;
-    height: 5%;
-    margin-right: 50px;
-    border-radius: 150px;
-    object-fit: cover;
-}
-
-  .imgmusicbloc4 {
-    width: 25%;
-    height: 10%;
-    margin-right: 50px;
-    border-radius: 150px;
-    object-fit: cover;
-}
-
-
-
-
-
-
 
 
 .containerfood {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 3rem;
     flex-wrap: wrap;
     align-items: center;
-
+    font-size: 1rem;
   }
 
-  .foodtexte1 {
+  .foodtexte1, .foodtexte2, .foodtexte3 {
     flex-direction: column;
     display: flex;
     justify-content: space-around;
-  }
-
-  .foodtexte2 {
-    flex-direction: column;
-    display: flex;
-    justify-content: space-around;
-  }
-  .foodtexte3 {
-    flex-direction: column;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .foodbloc1 {
-    display: flex;
-    margin: 50px;
-    justify-content: center;
+    font-size: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
   }
-  .foodbloc2 {
+  .foodbloc1, .foodbloc2, .foodbloc3 {
     display: flex;
-    margin: 50px;
-    justify-content: center;
-
-  }
-  .foodbloc3 {
-    display: flex;
-    margin: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     justify-content: center;
 
   }
 
 
-.imgfoodbloc1 {
-    width: 30%;
-    margin-right: 40px;
+
+.imgfoodbloc1, .imgfoodbloc3 {
+    width: 50%;
+    margin-right: 20px;
+    object-fit: contain;
+    background-color: white;
+  
 
 }
 .imgfoodbloc2 {
-    width: 30%;
-    margin-left: 40px;
-
+    width: 50%;
+    margin-left: 20px;
+    object-fit: contain;
+    background-color: white;
 }
-.imgfoodbloc3 {
-    width: 30%;
-    margin-right: 40px;
-
-}
-
-
-
-
 
 .foodtitre {
     text-align: center;
     font-size: 4rem;
     color: pink;
-    margin: 10px;
+    margin: 20px;
 
 }
 
@@ -204,5 +396,7 @@
     height: 45%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
 }
 }
+
