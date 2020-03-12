@@ -248,14 +248,29 @@ nav {
     display: flex;
     margin-bottom: 60px;
     justify-content: center;
-    width:50%;
 }  
  
-.imgmusicbloc1, .imgmusicbloc2, .imgmusicbloc3, .imgmusicbloc4 {
+.imgmusicbloc1, .imgmusicbloc2 {
 	width:45%;
 	margin-right: 20px;
 	object-fit: cover;
 }
+
+.imgmusicbloc3 {
+	width:45%;
+	margin-right: 20px;
+	object-fit: contain;
+	background-color: #fff;
+}
+
+.imgmusicbloc4 {
+	width:45%;
+	margin-right: 20px;
+	object-fit: contain;
+	background-color: #1c1919;
+}
+
+
     
 
 
@@ -548,7 +563,7 @@ l'ensemble du contenu CSS en modifiant les parties concernées ; un troisième e
 
       .containermusic {
         flex-direction: row;
-      }
+      } 
 }
 
 
@@ -715,6 +730,11 @@ l'ensemble du contenu CSS en modifiant les parties concernées ; un troisième e
     .bloc34 {
     	flex-direction: row;
     }
+    
+    .musicbloc1, .musicbloc2 , .musicbloc3, .musicbloc4 {
+   		 width:50%;
+	}  
+
 }
 
 
