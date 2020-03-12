@@ -425,6 +425,17 @@ l'ensemble du contenu CSS en modifiant les parties concernées ; un troisième e
 		border-radius: 50%;
 	}
 
+	footer {
+		height:4rem;
+	}
+
+	.contenu_footer {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		height:4rem;
+	}	
+
 	.line, .burger {
 		display:none;
 	}
