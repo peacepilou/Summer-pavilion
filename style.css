@@ -6,7 +6,7 @@
 
     .musictitre {
       text-align: center;
-      font-size: 4rem;
+      font-size: 3rem;
       color: pink;
       margin: 20px;
     
@@ -37,9 +37,8 @@
     .soundcloud {
     color:white;
     display: block;
-    width: 100px;
-    height: 100px;
     cursor: pointer;
+    margin-top: 2%;
     
     }
     
@@ -70,8 +69,6 @@
     .imgmusicbloc1, .imgmusicbloc2, .imgmusicbloc3, .imgmusicbloc4 {
         width: 20rem;
         margin-right: 20px;
-    
-        
     }
     
     .nomfoodtruck {
@@ -91,9 +88,9 @@
       .foodtexte1, .foodtexte2, .foodtexte3 {
         flex-direction: column;
         display: flex;
-        justify-content: space-around;
         margin-top: 20px;
         margin-bottom: 20px;
+        width: 50%;
     
       }
       .foodbloc1, .foodbloc2, .foodbloc3 {
@@ -107,7 +104,7 @@
     
     
     .imgfoodbloc1, .imgfoodbloc3 {
-        width: 56%;
+        width: 50%;
         margin-right: 20px;
         object-fit: contain;
         background-color: white;
@@ -115,7 +112,7 @@
     
     }
     .imgfoodbloc2 {
-        width: 56%;
+        width: 50%;
         margin-left: 20px;
         object-fit: contain;
         background-color: white;
@@ -154,6 +151,7 @@
       text-align: center;
       background-color: rgb(96, 147, 206);
       border-radius: 30px;
+      width: 20%;
     }
 
 
@@ -171,40 +169,8 @@
         align-items: center;
         font-size: 2rem;
       }
-    
-      .foodtexte1, .foodtexte2, .foodtexte3 {
-        flex-direction: column;
-        display: flex;
-        justify-content: space-around;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    
-      }
-      .foodbloc1, .foodbloc2, .foodbloc3 {
-        display: flex;
-        margin-left: 20px;
-        margin-right: 20px;
-        justify-content: center;
-    
-      }
-    
-    
-    
-    .imgfoodbloc1, .imgfoodbloc3 {
-        width: 56%;
-        margin-right: 20px;
-        object-fit: contain;
-        background-color: white;
-      
-    
-    }
-    .imgfoodbloc2 {
-        width: 56%;
-        margin-left: 20px;
-        object-fit: contain;
-        background-color: white;
-    }
-    
+
+ 
     .foodtitre {
         text-align: center;
         font-size: 4rem;
@@ -243,6 +209,9 @@
 
     @media screen and (max-width: 1024px) {
       .bloc12 {
+        flex-direction: column;
+      }
+      .bloc34 {
         flex-direction: column;
       }
 
@@ -295,9 +264,8 @@
 .soundcloud {
 color:white;
 display: block;
-width: 100px;
-height: 100px;
 cursor: pointer;
+margin-top: 2%;
 
 }
 
@@ -325,12 +293,22 @@ cursor: pointer;
   }
 
 
-.imgmusicbloc1, .imgmusicbloc2, .imgmusicbloc3, .imgmusicbloc4 {
+.imgmusicbloc1, .imgmusicbloc2, .imgmusicbloc3 {
     width: 45%;
     margin-right: 20px;
+    object-fit: cover;
+ 
 
     
 }
+
+.imgmusicbloc4 {
+  width: 45%;
+    margin-right: 20px;
+    object-fit: contain;
+    background-color: rgb(19, 18, 18);
+}
+
 
 .nomfoodtruck {
   font-size: 200%;
@@ -349,10 +327,10 @@ cursor: pointer;
   .foodtexte1, .foodtexte2, .foodtexte3 {
     flex-direction: column;
     display: flex;
-    justify-content: space-around;
     font-size: 90%;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 50%;
 
   }
   .foodbloc1, .foodbloc2, .foodbloc3 {
@@ -396,6 +374,11 @@ cursor: pointer;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
+}
+
+.menu {
+
+width: 35%;
 }
 }
 
