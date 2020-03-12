@@ -21,7 +21,7 @@
       .titreartiste {
           background-color: white;
           color: #474CE4;
-          font-size: 3rem;
+          font-size: 2rem;
           margin-bottom: 10px;
           display: block;
       }
@@ -29,7 +29,7 @@
       .date {
         background-color: white;
         color: #474CE4;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 20px;
         display: block;
     }
@@ -47,7 +47,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      font-size: 1rem;
       flex-wrap: wrap;
       align-items: center;
       margin: 10px;
@@ -280,7 +279,7 @@
   .titreartiste {
       background-color: white;
       color: #474CE4;
-      font-size: 3rem;
+      font-size: 1rem;
       margin-bottom: 10px;
       display: block;
   }
@@ -288,7 +287,7 @@
   .date {
     background-color: white;
     color: #474CE4;
-    font-size: 3rem;
+    font-size: 1rem;
     margin-bottom: 20px;
     display: block;
 }
@@ -383,7 +382,7 @@ cursor: pointer;
 
 .foodtitre {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     color: pink;
     margin: 20px;
 
