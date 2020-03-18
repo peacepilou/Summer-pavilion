@@ -1,0 +1,658 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Livvic', sans-serif;
+}
+body {
+    font-size:16px;
+    overflow-x: hidden;
+	background-image:linear-gradient(#474CE4, #ED62CF);
+	color: #FFFFFF;
+}
+
+h2 {
+	text-align: center;
+	font-size:4rem;
+	margin-bottom: 50px;
+	letter-spacing: 6px;
+}
+
+h3 {
+	font-size:3rem;
+	font-variant: small-caps;
+	letter-spacing: 4px;
+}
+/*MOBILE*/
+/*HEADER*/
+header {
+	background-color: #000;
+}
+header img {
+	width:30%;
+	margin:5px;
+}
+nav {
+	margin:0;
+}
+
+/*button scroll up*/
+#scrollup {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  background-color: #474CE4;
+  color: white;
+  cursor: pointer;
+  padding: 0.6rem 1rem 0.8rem;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+#scrollup:hover {
+  background-color: #ED62CF;
+}
+/*SECTIONS*/
+/*vague*/
+.vague {
+	display:flex;
+	margin:3%;
+}
+.vague_blanche {
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+/*SECTION 1 SLIDE*/
+.landing1, .landing2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+.landing1 img {
+	width:100%;
+}
+.choice {
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+	z-index: 1;
+}
+.bloc {
+  position: relative;
+  width: 50%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  transition: .5s ease;
+  background-color: #474CE4;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity:1;
+  width:100%;
+}
+
+.text a {
+	text-decoration: none;
+	font-size: 1.8rem;
+	color: #fff;
+	display:block;
+}
+/*SECTION 2 MUSIC*/
+.genre {
+    margin-bottom: 10px;
+    display: block;
+}
+.titreartiste {
+    background-color: white;
+    color: #474CE4;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+	display: block;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.date {
+    background-color: white;
+    color: #474CE4;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: block;
+}
+.soundcloud {
+	color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 20px;
+	margin-top:  20px;
+	padding: 30px;
+	border-radius: 40px;
+	border: solid #8b54dc 1px;
+	background-color: white;
+	transition: 0.3s;
+	text-align: center;
+}
+.soundcloud:hover {
+	background :#8b54dc;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+}
+.containermusic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    margin-top: 5%;
+    width:90%;
+    margin:auto;
+}
+.musictexte1, .musictexte2, .musictexte3, .musictexte4 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+	width: 40%;
+}
+.musictexte1 div, .musictexte2 div, .musictexte3 div, .musictexte4 div {
+	text-align:justify;
+}
+.musicbloc1, .musicbloc2 , .musicbloc3, .musicbloc4 {
+    display: flex;
+    margin-bottom: 60px;
+	justify-content: center;
+  	align-items: flex-start;
+	height: 100%;
+  	padding: 10px;
+  	box-sizing: border-box;
+	transition: 0.3s;
+	border-radius: 5px;
+	margin-right: 40px;
+	margin-left: 40px;
+	color: white;
+}  
+.musicbloc1:hover, .musicbloc2:hover , .musicbloc3:hover, .musicbloc4:hover {
+	cursor: pointer;
+	box-shadow: 10px 50px 50px 15px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);
+	background-color: white;
+	color: black;
+	border: 1px solid white;
+}
+.imgmusicbloc1, .imgmusicbloc2 {
+	width:45%;
+	margin-right: 20px;
+	object-fit: cover;
+	height: 450px;
+}
+.imgmusicbloc3 {
+	width:45%;
+	height: 450px;
+	margin-right: 20px;
+	object-fit: contain;
+	background-color: #fff;
+}
+.imgmusicbloc4 {
+	width:45%;
+	height: 450px;
+	margin-right: 20px;
+	object-fit: contain;
+	background-color: #1c1919;
+}
+/*SECTION 3 FOOD*/
+.nomfoodtruck {
+    font-size: 1rem;
+}
+.foodtexte1,.foodtexte3 {
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: justify;
+    display: flex;
+    width: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.foodtexte2 {
+	flex-direction: column;
+    display: flex;
+	text-align: justify;
+    width: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.spécialities {
+	margin: 15px 15px 15px 0px;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.foodbloc1, .foodbloc2, .foodbloc3 {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+	width:90%;
+}
+.foodbloc1:hover, .foodbloc2:hover, .foodbloc3:hover {
+	cursor: pointer;
+	box-shadow: 10px 50px 50px 15px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+}
+.imgfoodbloc1, .imgfoodbloc3 {
+    width: 50%;
+    object-fit: contain;
+    background-color: white; 
+}
+.imgfoodbloc2 {
+    width: 50%;
+    margin-left: 20px;
+    object-fit: contain;
+    background-color: white;
+}
+.menu {
+	color: black;
+	text-decoration: none;
+	letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 20px;
+	margin-bottom:  20px;
+	padding: 30px;
+	border-radius: 40px;
+	border :solid #b159d7 1px;
+	background-color: white;
+	transition: 0.3s;
+	text-align: center;
+}
+.menu:hover {
+	background :#b159d7;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.containerfood {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+}       
+.bloc12 {
+    display: flex;
+    flex-direction: column;
+} 
+.bloc34 {
+    display: flex;
+    flex-direction: column;  
+}
+.imgfood {
+	display: flex;
+	justify-content: center;
+	width: 52%;
+	background-color: #fff;
+} 
+/*SECTION 4 LOVE*/
+.OiAku {
+	font-size: 3.5rem;
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: 0.5rem;
+	margin: auto;
+	width: 80%;	
+	text-align: center;
+}
+.OiAku_traduction {
+	font-size: 1rem;
+	font-style: italic;
+	margin-top: 1%;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.our_history, .trouver_contacter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	margin:0 4rem;
+}
+.OiAku_p1, .OiAku_p2, .OiAku_p3 {
+	margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    cursor: default;
+	text-align: center;
+	flex-direction: column;
+}
+.OiAku_p1:hover, .OiAku_p2:hover, .OiAku_p3:hover {
+	transition: all 0.3s ease-out;
+	transform: scale(1.1);
+	box-shadow: black;
+	cursor: pointer;
+	box-shadow: 10px 50px 50px 15px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	background-color: white;
+	color: black;
+	border: 1px solid white;
+}
+/*SECTION 5 CONTACT*/
+.où_nous_trouver, .nous_contacter {
+	font-size: 1.3rem;
+}
+.où_nous_trouver {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   	width: 100%;
+}
+.nous_contacter {
+	background-color: #FFFFFF;
+	color: #ED62CF;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 7px;
+}
+iframe {
+    width: 100%;
+    margin-top: 2%;
+}
+form {
+	background-color: #FFFFFF;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: #FFFFFF solid 2rem;
+}
+input {
+	margin-bottom: 0.5rem;
+	width: 95%;
+	height: 3rem;
+	border: solid white 1px;
+	border-radius: 10px;
+	background-color: #d45fd2;
+	color: #9d58d9;
+}
+input:hover, textarea:hover {
+	cursor: text;
+	background-color: #9d58d9;
+}
+textarea {
+	width: 95%;
+	border: solid white 1px;
+	border-radius: 10px;
+	background-color: #d45fd2;
+	color: #9d58d9;
+}
+::placeholder {
+	color: #FFFFFF;
+}
+.P_input {
+	display: flex;
+	justify-content: center;
+}
+.container_send {
+	display: flex;
+    height: 1.2rem;
+    justify-content: center;
+    width: 40%;
+}
+.send {
+	width: 50%;
+	height: 2rem;
+	margin-top: 0.5rem;
+	background-color: #E8E8E2;
+}
+.send:hover {
+	cursor: default;
+	background-color: white;
+	transform: scale(1.1);
+}
+.logo_facebook, .logo_instagram, .logo_soundcloud {
+	width:  7%;
+	height: 7%;
+	border-radius: 50%;
+	margin:0 1rem;
+}
+.logos {
+	text-align: center;
+	margin-bottom: 3%;
+}
+.logo_facebook:hover, .logo_instagram:hover, .logo_soundcloud:hover {
+	cursor: pointer;
+	transform: scale(1.25);
+}
+/*FOOTER*/
+.contenu_footer a {
+	text-decoration: none;
+	color:#fff;
+}
+footer {
+	background-color: black;
+	width: 100%;
+	height: auto;
+}	
+.contenu_footer {
+	width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+}
+
+/* PARTIE RESPONSIVE*/
+
+/*TABLET*/
+@media (min-width: 600px) and (max-width: 1024px) {
+	.OiAku {
+		width:70%;
+	}
+      .bloc12 {
+        flex-direction: column;
+      }
+      .bloc34 {
+        flex-direction: column;
+      }
+      .containermusic {
+        flex-direction: row;
+      } 
+}
+/*DESKTOP*/
+@media screen and (min-width: 1024px) {
+	.OiAku {
+		width:80%;
+		font-size:5rem;
+	}
+	.our_history {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.OiAku_p1, .OiAku_p2, .OiAku_p3 {
+		margin-right: 1.4rem;
+	    margin-left: 1.4rem;
+	    font-size: 1rem;
+	}
+	.trouver_contacter {
+		display: flex;
+		justify-content: space-between;
+	}
+	.trouver_contacter {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+	}
+	.où_nous_trouver {
+    	width: 80%;
+	}
+	iframe {
+	height: 320px;
+    width: 80%;
+    margin-top: 5px;
+	}
+	.logo_facebook, .logo_instagram, .logo_soundcloud {
+		width:  4%;
+		height: 4%;
+		border-radius: 50%;
+	}
+	footer {
+		height:4rem;
+	}
+	.contenu_footer {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		height:4rem;
+	}	
+	.line, .burger {
+		display:none;
+	}
+	.landing1 img {
+		width:100%;
+	}
+	}	
+	.bloc  {
+		height:50vh;
+	}
+	.bloc:hover .overlay {
+		opacity: 0.9;
+		font-size: 5rem;
+		letter-spacing: 10px;
+	}
+	.text a {
+		display: block;
+		font-size: 5rem;
+	}
+	.container  {
+		height:50vh;
+	}
+	.container:hover .overlay {
+		opacity: 1;
+	}
+	.overlay {
+		opacity: 0;
+	}
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	header img {
+		width: 20%;
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	nav div {
+		padding: 2rem;
+		font-size: 2rem;
+		letter-spacing: 4px;
+	}
+	nav div a {
+		text-decoration: none;
+		color: white;
+	}
+	nav div:hover {
+		background-color:#ED62CF;
+		transition: all 0.3s ease-out;
+		
+		cursor: pointer;
+		transform: scale(1.1);
+
+	}
+    .titreartiste {
+		font-size: 2rem;
+		color: #8b54dc;
+		
+    }
+    .date {
+		font-size: 2rem;
+		color: #8b54dc;
+    }   
+    .imgmusicbloc1, .imgmusicbloc2{
+        width: 45%;
+        object-fit:cover;
+	}
+    .imgmusicbloc4 {
+        width: 45%;
+        object-fit:contain;
+        background-color: rgb(19, 18, 18);
+	}
+	.imgmusicbloc3 {
+        width: 45%;
+        object-fit:contain;
+        background-color: #fff;
+	}
+    .imgfoodbloc2 {
+        width: 50%;
+    }
+    .containerfood {
+        font-size: 1rem;
+      }
+    .bloc12 {
+    	flex-direction: row;
+    }
+    .bloc34 {
+    	flex-direction: row;
+    }
+    .musicbloc1, .musicbloc2 , .musicbloc3, .musicbloc4 {
+   		 width:50%;
+	}  
+}
+/*Animation*/
+@keyframes navLinkFade {
+	from{
+		opacity: 0;
+		transform: translate(50px);
+	}
+	to {
+		opacity: 1;
+		transform: translate(0px);
+	}
+}
